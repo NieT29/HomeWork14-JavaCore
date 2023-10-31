@@ -26,6 +26,7 @@ public class StaffService {
         for (Staff staff : staffs)
             if (id == staff.getId()) {
                 staffs.remove(staff);
+                System.out.println("Nhân viên đã được xóa");
             }
     }
 
